@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><form action="https://httpbin.org/get" method="get">
+    <fieldset>
+        <legend>Personalinfo</legend>
+    <p><label for="Passward">Passward: </label>
+    <input type="password" name="password" id="myPassword" required autofocus>
+ </p>
+    <p><label for="Decade">Years:</label>
+ <input type="number" name="Decade" id="myDecade"
+ min="2000" max="2100"step="1" value="2000">   
+</p>
+<p>
+    <label for="favorite car">Car</label>
+    <select name="favorite car" id="car">
+        <option value="benz">Benz</option>
+        <option value="toyota">Toyota</option>
+        <option value="lexus">Lexus</option>
+        <option value="bmw">Bmw</option>
+        <option value="ford" selected>Ford</option>
+        <option value="lexus">Lexus</option>
+
+        
+    </select>
+    </fieldset>
+    <fieldset>
+        <legend>message</legend>
+        <label for="message">Your message</label>
+        <br>
+        <textarea name="message" id="message" colomns="30" rows="20"></textarea>
+    </fieldset>
+    <button type="submit">Submit</button>
+    <button >reset</button>
+    </form>
+</p>
+</body>
+</html>
